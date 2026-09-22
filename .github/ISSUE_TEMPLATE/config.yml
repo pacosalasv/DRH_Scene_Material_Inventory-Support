@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask a question or get installation help
+    url: https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/discussions
+    about: Use Discussions for how-to questions, setup help, troubleshooting, FAQ, and suggestions.

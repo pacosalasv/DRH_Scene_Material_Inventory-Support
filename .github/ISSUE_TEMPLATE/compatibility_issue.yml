@@ -1,0 +1,45 @@
+name: Compatibility issue
+description: Report a Blender version or platform compatibility problem in DRH - Scene Material Inventory.
+title: "[Compatibility]: "
+labels:
+  - compatibility issue
+body:
+  - type: input
+    id: addon_version
+    attributes:
+      label: Add-on version
+      placeholder: "Example: 1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: blender_version
+    attributes:
+      label: Blender version
+      placeholder: "Example: 4.2.1"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Compatibility problem
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Error message or screenshot

@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest an improvement or new feature for DRH - Scene Material Inventory.
+title: "[Feature]: "
+labels:
+  - feature request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting an improvement for DRH - Scene Material Inventory.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: textarea
+    id: workflow_benefit
+    attributes:
+      label: Workflow benefit
+    validations:
+      required: true
