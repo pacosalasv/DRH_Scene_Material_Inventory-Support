@@ -69,13 +69,6 @@ It can inventory materials, reachable shader nodes, referenced images, common PB
 
 PBR role detection uses shader-node connections when possible and naming as a fallback or supplement. Color-space checks are review hints rather than hard errors because custom shader workflows can intentionally differ.
 
-## Support and review feedback
-
-Use [GitHub Discussions](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/discussions) for setup questions, workflow guidance, report interpretation, and general review feedback.
-
-Use [GitHub Issues](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/issues/new/choose) for reproducible bugs, regressions, compatibility problems, focused feature requests, or listing/review problems.
-
-Do not post credentials, confidential production files, private client material, payment information, license keys, or sensitive local paths. See [SUPPORT.md](SUPPORT.md) for the full support policy.
 
 ## Availability
 
@@ -88,18 +81,37 @@ For the released DRH catalog, visit:
 
 ## Documentation
 
-- [Support policy](SUPPORT.md)
-- [Changelog](CHANGELOG.md)
 - [User manual](docs/manual/user-manual.pdf)
 - [Manual changelog](docs/manual/manual-changelog.md)
+- [Product changelog](CHANGELOG.md)
+- [Support guide](SUPPORT.md)
+
+## Support
+
+Use [GitHub Discussions](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/discussions) for setup questions, workflow guidance, usage help, and general feedback. Use [GitHub Issues](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/issues/new/choose) for reproducible bugs, regressions, compatibility problems, and focused feature requests.
+
+See [SUPPORT.md](SUPPORT.md) for the shared DRH support format, the information to include in a report, and public-information guidance.
 
 ## Support DRH development
 
-Development support is optional. Contributions through [Ko-fi](https://ko-fi.com/pacosalasv) help cover maintenance, Blender compatibility work, documentation, and testing.
+DRH development support is optional. Ko-fi contributions help cover maintenance, Blender compatibility work, documentation, testing, and continued development of free tools.
+
+<div align="center">
+  <a href="https://ko-fi.com/pacosalasv">
+    <img width="520" alt="Support DRH development on Ko-fi" src="docs/media/kofi_donate.png" />
+  </a>
+</div>
+
+## Ecosystem links
+
+- [DRH Add-ons Hub](https://github.com/pacosalasv/DRH_Addons_Hub)
+- [DRH catalog on BlendKit](https://www.blendkit.com/?query=author_id:205846)
+- [Paco Salas | DRH on GitHub](https://github.com/pacosalasv)
+- [Ko-fi](https://ko-fi.com/pacosalasv)
 
 ## License
 
-The add-on is licensed under GPL-3.0-or-later. See [LICENSE](LICENSE).
+This repository is distributed under GPL-3.0-or-later. See [LICENSE](LICENSE).
 
 ---
 
