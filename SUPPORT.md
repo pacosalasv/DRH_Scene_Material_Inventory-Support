@@ -1,16 +1,16 @@
 # Support
 
-DRH - Scene Material Inventory status: Released.
+DRH - Scene Material Inventory status: **Under revision (not approved yet)**.
 
-The installable package is not stored in this repository. Distribution is handled through DRH marketplace/profile channels, including BlendKit.
+This repository supports the submitted 1.0.0 candidate. It does not represent an approved BlendKit release, and the installable package is not stored here.
 
 ## Where to ask for help
 
-Use [GitHub Discussions](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/discussions) for installation questions, workflow guidance, report interpretation, compatibility checks, and general product feedback.
+Use [GitHub Discussions](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/discussions) for installation questions, workflow guidance, report interpretation, compatibility checks, and general review feedback.
 
-Use [GitHub Issues](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/issues/new/choose) for reproducible bugs, regressions, compatibility problems, focused feature requests, and distribution or listing problems.
+Use [GitHub Issues](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/issues/new/choose) for reproducible bugs, regressions, compatibility problems, focused feature requests, and distribution or review-listing problems.
 
-When opening an issue, include the add-on version, Blender version, operating system, installation method, steps to reproduce, expected result, actual result, and any relevant error output or screenshot.
+When opening an issue, include the candidate version, Blender version, operating system, installation method, steps to reproduce, expected result, actual result, and any relevant error output or screenshot.
 
 ## Public information only
 
