@@ -1,5 +1,5 @@
 {
-  "description": "Support and documentation for DRH - Scene Material Inventory: Blender material, shader-node, image, PBR-map, and report auditing.",
+  "description": "Documentation and support for DRH - Scene Material Inventory, covering materials, shader nodes, images, PBR maps, and report export.",
   "homepage": "https://www.blendkit.com/?query=author_id:205846",
   "visibility": "public",
   "has_issues": true,

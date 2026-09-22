@@ -1,7 +1,5 @@
-# Manual Changelog
+# Manual changelog
 
-## 1.0.0
+## 1.0.0 - Interim user guide
 
-- Initial documentation structure for DRH - Scene Material Inventory.
-- Placeholder PDF manual added for repository completeness.
-- Replace the placeholder PDF with the final illustrated user manual when product captures are available.
+The first repository guide now covers panel location, basic workflow, report coverage, export formats, accuracy notes, privacy, and support. Product screenshots in the repository remain temporary until final captures are available, and the interim guide can be replaced with the illustrated manual when those assets are ready.

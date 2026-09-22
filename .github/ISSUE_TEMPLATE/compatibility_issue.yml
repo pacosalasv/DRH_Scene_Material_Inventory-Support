@@ -1,5 +1,5 @@
 name: Compatibility issue
-description: Report a Blender version or platform compatibility problem in DRH - Scene Material Inventory.
+description: Report a Blender-version or platform compatibility problem with DRH - Scene Material Inventory.
 title: "[Compatibility]: "
 labels:
   - compatibility issue
@@ -36,10 +36,11 @@ body:
     id: problem
     attributes:
       label: Compatibility problem
+      description: Describe what fails and whether the same workflow works in another Blender version or platform.
     validations:
       required: true
 
   - type: textarea
     id: evidence
     attributes:
-      label: Error message or screenshot
+      label: Error output or screenshot

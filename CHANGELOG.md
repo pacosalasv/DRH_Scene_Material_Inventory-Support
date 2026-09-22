@@ -1,8 +1,8 @@
 # Changelog
 
-## 1.0.0 — Initial Release
+## 1.0.0 - Initial release
 
-- Initial public release of **DRH - Scene Material Inventory** as a Blender Extension.
+- Initial public release of DRH - Scene Material Inventory as a Blender Extension.
 - Blender 4.2+ Extension package with `blender_manifest.toml`.
 - DRH metadata and maintainer identity: `Paco Salas | DRH`.
 - Material inventory with unique scene-object counts, Blend user counts, and material-slot reference counts.
