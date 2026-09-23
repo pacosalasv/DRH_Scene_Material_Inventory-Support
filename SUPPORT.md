@@ -1,6 +1,6 @@
 # DRH - Scene Material Inventory — Support
 
-This repository uses the same public support workflow as the rest of the DRH Blender Tools ecosystem.
+This repository follows the common public support workflow used across the DRH Blender Tools ecosystem.
 
 ## Start here
 
@@ -18,7 +18,7 @@ This repository uses the same public support workflow as the rest of the DRH Ble
 |---|---|
 | Product version | `1.0.0 Candidate` or the exact version you are using |
 | Blender version | Exact Blender version/build |
-| Operating system | Windows, macOS, or Linux version |
+| Operating system | Windows, macOS, Linux |
 | Reproduction | Clear steps from a clean or known state |
 | Expected result | What you expected to happen |
 | Actual result | What happened instead |
@@ -34,13 +34,11 @@ Do not post passwords, API keys, private account details, confidential client fi
 
 ## Release and distribution status
 
-**Under Revision.** Under revision (not approved yet). No approved public download is linked. The candidate is documented here for review and feedback; this repository does not host an installable package.
+**Under revision (not approved yet) · 1.0.0 Candidate.** This repository documents the review candidate; no approved public download is linked.
 
-Official installable packages are not mirrored in this support repository.
+## Support development
 
-## Support DRH development
-
-Ko-fi support is optional. Contributions help cover maintenance, Blender compatibility work, documentation, testing, and continued development of free DRH tools.
+Ko-fi support is optional. Contributions help fund maintenance, Blender compatibility work, documentation, testing, and continued development of free DRH tools.
 
 <div align="center">
   <a href="https://ko-fi.com/pacosalasv">
@@ -53,6 +51,5 @@ Ko-fi support is optional. Contributions help cover maintenance, Blender compati
 | Destination | Link |
 |---|---|
 | DRH Add-ons Hub | [Catalog and roadmap](https://github.com/pacosalasv/DRH_Addons_Hub) |
-| Product repository | [DRH_Scene_Material_Inventory-Support](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support) |
-| Paco Salas \| DRH | [GitHub profile](https://github.com/pacosalasv) |
+| Paco Salas | DRH | [GitHub profile](https://github.com/pacosalasv) |
 | Ko-fi | [Support development](https://ko-fi.com/pacosalasv) |
