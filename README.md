@@ -20,6 +20,12 @@ DRH - Scene Material Inventory is a Blender material-auditing and reporting exte
 
 It can inventory materials, reachable shader nodes, referenced images, common PBR map roles, and collection usage, then export review data as HTML, XLSX, or CSV.
 
+## Key features
+
+| Capability |
+|---|
+| Audit scene materials, shader nodes, referenced images, PBR maps, and exportable project reports |
+
 ## Product status
 
 | Item | Details |
@@ -34,24 +40,14 @@ It can inventory materials, reachable shader nodes, referenced images, common PB
 
 The candidate is documented here for review and feedback; this repository does not host an installable package.
 
-## Capabilities
-
-| Capability |
-|---|
-| Audit scene materials, shader nodes, referenced images, PBR maps, and exportable project reports |
-
 ## Media
 
-Primary product screenshots are shown below. Additional screenshots, when present, remain in `docs/media/`.
+Product screenshots:
 
 <div align="center">
   <img width="420" alt="DRH - Scene Material Inventory ScreenShot 01" src="docs/media/ScreenShot_01.png" />
   <img width="420" alt="DRH - Scene Material Inventory ScreenShot 02" src="docs/media/ScreenShot_02.png" />
 </div>
-
-## Product reference
-
-The documented build is a review candidate. Features and release details may change until approval is complete.
 
 ## Documentation and support
 
@@ -78,7 +74,8 @@ Ko-fi support is optional. Contributions help fund maintenance, Blender compatib
 | Destination | Link |
 |---|---|
 | DRH Add-ons Hub | [Catalog and roadmap](https://github.com/pacosalasv/DRH_Addons_Hub) |
-| Paco Salas | DRH | [GitHub profile](https://github.com/pacosalasv) |
+| Paco Salas | DRH | [Official site](https://pacosalasv.blogspot.com/) |
+| BlendKit | [DRH Blender downloads](https://www.blendkit.com/?query=author_id:205846) |
 | Ko-fi | [Support development](https://ko-fi.com/pacosalasv) |
 
 ## License
