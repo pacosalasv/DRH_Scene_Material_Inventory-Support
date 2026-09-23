@@ -1,65 +1,58 @@
-# Support — DRH - Scene Material Inventory
+# DRH - Scene Material Inventory — Support
 
-**Status:** Under revision (not approved yet) · v1.0.0 candidate
-
-The submitted candidate is under revision and is not an approved BlendKit release. No installable package is hosted in this repository.
+This repository uses the same public support workflow as the rest of the DRH Blender Tools ecosystem.
 
 ## Start here
 
-Use the channel that matches the kind of help you need:
-
-| Channel | Best for |
+| Need | Use |
 |---|---|
-| [GitHub Discussions](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/discussions) | Setup questions, workflow guidance, general feedback, usage questions, and community discussion |
-| [GitHub Issues](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/issues/new/choose) | Reproducible bugs, regressions, compatibility problems, and focused feature requests |
+| Setup or workflow question | [GitHub Discussions](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/discussions) |
+| Reproducible bug or regression | [GitHub Issues](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/issues/new/choose) |
+| Compatibility problem | [GitHub Issues](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/issues/new/choose) |
+| Product or workflow feedback | [GitHub Discussions](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/discussions) |
+| Documentation problem | [GitHub Issues](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/issues/new/choose) |
 
 ## What to include in a report
 
 | Information | What to provide |
 |---|---|
-| Product version or status | Installed version, candidate version, or current planned/development state |
-| Blender version | Exact Blender version |
-| Operating system | Windows, macOS, or Linux and version when relevant |
-| Installation method | How the add-on was installed, when applicable |
-| Steps | Minimal sequence that reproduces the behavior |
+| Product version | `1.0.0 Candidate` or the exact version you are using |
+| Blender version | Exact Blender version/build |
+| Operating system | Windows, macOS, or Linux version |
+| Reproduction | Clear steps from a clean or known state |
 | Expected result | What you expected to happen |
 | Actual result | What happened instead |
-| Evidence | Relevant error text, console output, screenshots, or a minimal non-confidential example |
+| Evidence | Error text, screenshot, console output, or a minimal reproducible example when safe |
 
 ## Before opening an issue
 
-1. Check the repository README and available documentation.
-2. Search existing Issues and Discussions for the same behavior.
-3. Confirm the problem with the current version or candidate you are reporting.
-4. Reduce the report to the smallest reproducible case when practical.
+Confirm that the problem is reproducible, review the README and available documentation, and check existing Issues/Discussions for the same behavior.
 
 ## Public information only
 
-GitHub Issues and Discussions are public. Do not post credentials, payment information, license keys, confidential production files, private client material, personal data, or sensitive local paths.
+Do not post passwords, API keys, private account details, confidential client files, licensed assets you cannot share, or sensitive system information. If a private file appears necessary, describe the problem first and wait for a safe sharing path.
 
-If reproducing a problem may require private material, describe the behavior first and wait for guidance before sharing anything sensitive.
+## Release and distribution status
 
-## Distribution and release status
+**Under Revision.** Under revision (not approved yet). No approved public download is linked. The candidate is documented here for review and feedback; this repository does not host an installable package.
 
-The submitted candidate is under revision and is not an approved BlendKit release. No installable package is hosted in this repository.
-
-- [DRH catalog on BlendKit](https://www.blendkit.com/?query=author_id:205846)
-
-GitHub is the documentation, support, compatibility, changelog, and feedback layer for DRH Blender tools. Installable public releases are not mirrored here.
+Official installable packages are not mirrored in this support repository.
 
 ## Support DRH development
 
-DRH development support is optional. Ko-fi contributions help cover maintenance, Blender compatibility work, documentation, testing, and continued development of free tools.
+Ko-fi support is optional. Contributions help cover maintenance, Blender compatibility work, documentation, testing, and continued development of free DRH tools.
 
 <div align="center">
   <a href="https://ko-fi.com/pacosalasv">
-    <img width="520" alt="Support DRH development on Ko-fi" src="docs/media/kofi_donate.png" />
+    <img width="620" alt="Support Paco Salas | DRH on Ko-fi" src="docs/media/SupportMe.png" />
   </a>
 </div>
 
 ## Related links
 
-- [DRH Add-ons Hub](https://github.com/pacosalasv/DRH_Addons_Hub)
-- [Repository README](README.md)
-- [Paco Salas | DRH on GitHub](https://github.com/pacosalasv)
-- [Ko-fi](https://ko-fi.com/pacosalasv)
+| Destination | Link |
+|---|---|
+| DRH Add-ons Hub | [Catalog and roadmap](https://github.com/pacosalasv/DRH_Addons_Hub) |
+| Product repository | [DRH_Scene_Material_Inventory-Support](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support) |
+| Paco Salas \| DRH | [GitHub profile](https://github.com/pacosalasv) |
+| Ko-fi | [Support development](https://ko-fi.com/pacosalasv) |
