@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="860" alt="DRH - Scene Material Inventory featured image" src="docs/media/Featured_Image.png" />
+<img width="860" alt="DRH - Scene Material Inventory logo" src="docs/media/Logo.png" />
 
 # DRH - Scene Material Inventory
 
