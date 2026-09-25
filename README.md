@@ -4,11 +4,11 @@
 
 # DRH - Scene Material Inventory
 
-**Audit scene materials, shader nodes, referenced images, PBR maps, and exportable project reports**
+**Audit materials, shader nodes, images, PBR maps, collections, and exportable scene reports**
 
-![Status](https://img.shields.io/badge/Status-Under%20Revision-F59E0B?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-1.0.0%20Candidate-00B7FF?style=for-the-badge) ![Blender](https://img.shields.io/badge/Blender-4.2%2B-0B1F4D?style=for-the-badge) ![Platforms](https://img.shields.io/badge/Platforms-Windows%2C%20macOS%2C%20Linux-334155?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Released-22C55E?style=for-the-badge) ![Version](https://img.shields.io/badge/Version-1.0.0-00B7FF?style=for-the-badge) ![Blender](https://img.shields.io/badge/Blender-4.2%2B-0B1F4D?style=for-the-badge) ![Platforms](https://img.shields.io/badge/Platforms-Windows%2C%20macOS%2C%20Linux-334155?style=for-the-badge)
 
-[![Review status](https://img.shields.io/badge/Review%20status-View-64748B?style=for-the-badge)](#product-status) [![Support](https://img.shields.io/badge/Support-Issues%20%26%20Discussions-1E5BFF?style=for-the-badge)](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/issues) [![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add-ons%20Hub-Visit-334155?style=for-the-badge)](https://github.com/pacosalasv/DRH_Addons_Hub)
+[![Download](https://img.shields.io/badge/Download-Open-0B1F4D?style=for-the-badge)](https://www.blendkit.com/asset-gallery-detail/8225a754-32cd-482d-a0d3-84ea3850fc8f/) [![Support](https://img.shields.io/badge/Support-Issues%20%26%20Discussions-1E5BFF?style=for-the-badge)](https://github.com/pacosalasv/DRH_Scene_Material_Inventory-Support/issues) [![DRH Add-ons Hub](https://img.shields.io/badge/DRH%20Add-ons%20Hub-Visit-334155?style=for-the-badge)](https://github.com/pacosalasv/DRH_Addons_Hub)
 
 </div>
 
@@ -16,29 +16,49 @@
 
 ## Overview
 
-DRH - Scene Material Inventory is a Blender material-auditing and reporting extension designed to inspect material usage across a scene without manually opening every material or shader graph.
+DRH - Scene Material Inventory is a Blender auditing and reporting extension for understanding the material, shader, image, and PBR data actually used by a scene.
 
-It can inventory materials, reachable shader nodes, referenced images, common PBR map roles, and collection usage, then export review data as HTML, XLSX, or CSV.
+Instead of opening materials and node trees one by one, generate a structured inventory for the whole scene and review the result in HTML, XLSX, or CSV. It is designed for scene cleanup, asset handoff, technical review, archviz, product visualization, game/VFX pipelines, and teams receiving Blender files from other artists.
 
 ## Key features
 
-| Capability |
-|---|
-| Audit scene materials, shader nodes, referenced images, PBR maps, and exportable project reports |
+| Capability | What it helps you review |
+|---|---|
+| Scene material inventory | Which materials are present, where they are used, and how many scene objects, datablock users, and material-slot references they have. |
+| Shader-node analysis | Reachable node trees, shader types, node counts, nested groups, and Principled BSDF usage. |
+| Image audit | Referenced images, source type, resolution/context, packing state, alpha use, file size, and missing-file status where applicable. |
+| PBR map review | Common map roles, shader targets, naming fallback, packed-map conventions, alpha use, and color-space review hints. |
+| Collection breakdown | Optional per-collection material usage for larger scenes and structured asset reviews. |
+| Multi-format reporting | Searchable HTML, structured XLSX workbooks, and CSV exports for portable review and handoff. |
+| Privacy-aware output | Path sanitization is enabled by default to reduce exposure of local user-directory information in exported reports. |
+| Saved report setup | Save preferred report options as defaults and apply them back to scenes when needed. |
 
 ## Product status
 
 | Item | Details |
 |---|---|
-| Status | **Under Revision** |
-| Version | 1.0.0 Candidate |
+| Status | **Released** |
+| Version | **1.0.0** |
 | Blender | 4.2+ |
 | Platforms | Windows, macOS, Linux |
-| Availability | Under revision (not approved yet). No approved public download is linked. |
-| Distribution | Review/support repository only until approval. |
+| Availability | Free public release |
+| Distribution | Official releases are distributed through the linked BlendKit product page |
 | Repository role | Documentation, support, issue tracking, compatibility feedback, and product feedback |
 
-The candidate is documented here for review and feedback; this repository does not host an installable package.
+## Report formats
+
+- **HTML** - searchable and sortable report with filters, collapsible sections, environment context, optional collection details, and optional PBR-map details.
+- **XLSX** - structured workbook with typed numeric cells, frozen headers, native Excel tables, and optional PBR Maps and Collections sheets.
+- **CSV** - UTF-8 BOM material inventory with an optional companion `_PBR-Maps.csv` export when PBR details are enabled.
+
+## Review notes
+
+- Unique scene-object use is kept separate from Blender material datablock users and material-slot references.
+- Reachable shader node groups are scanned recursively.
+- PBR roles use shader connectivity where possible, with names used as a fallback or supplement.
+- Color-space results are review hints rather than hard errors because custom shader workflows can intentionally differ.
+- UDIM/tiled image handling uses known Blender image tiles when available.
+- Alpha use is based on linked Image Texture Alpha outputs.
 
 ## Media
 
@@ -73,6 +93,7 @@ Ko-fi support is optional. Contributions help fund maintenance, Blender compatib
 
 | Destination | Link |
 |---|---|
+| Download | [Official product page](https://www.blendkit.com/asset-gallery-detail/8225a754-32cd-482d-a0d3-84ea3850fc8f/) |
 | DRH Add-ons Hub | [Catalog and roadmap](https://github.com/pacosalasv/DRH_Addons_Hub) |
 | Paco Salas | DRH | [Official site](https://pacosalasv.blogspot.com/) |
 | BlendKit | [DRH Blender downloads](https://www.blendkit.com/?query=author_id:205846) |

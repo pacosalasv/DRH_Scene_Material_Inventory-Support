@@ -1,12 +1,8 @@
 # Changelog
 
-## 1.0.0 - Revision candidate
+## 1.0.0 - Initial public release
 
-Status: **Under revision (not approved yet)**.
-
-This candidate documents the feature set submitted for review. It is not described as an approved public release until marketplace approval is complete.
-
-- Blender 4.2+ Extension package with `blender_manifest.toml`.
+- Released publicly on BlendKit.
 - Material inventory with unique scene-object counts, Blender material user counts, and material-slot reference counts.
 - Recursive shader-node and node-group scanning.
 - Principled BSDF detection and shader-type reporting.
@@ -23,6 +19,5 @@ This candidate documents the feature set submitted for review. It is not describ
 - Extension Preferences for default report options plus Load/Apply Defaults and Save Scene as Defaults.
 - Path sanitization enabled by default.
 - Blender `//` output-folder resolution.
-- Clean `PropertyGroup` registration/unregistration lifecycle.
 - No third-party Python runtime dependencies.
 - GPL-3.0-or-later license.

@@ -1,6 +1,6 @@
 {
-  "description": "Support and review documentation for DRH - Scene Material Inventory. Status: under revision; not approved for release yet.",
-  "homepage": "https://github.com/pacosalasv/DRH_Addons_Hub",
+  "description": "Documentation and support for DRH - Scene Material Inventory 1.0.0: material, shader, image, PBR, collection, and report auditing.",
+  "homepage": "https://www.blendkit.com/asset-gallery-detail/8225a754-32cd-482d-a0d3-84ea3850fc8f/",
   "visibility": "public",
   "has_issues": true,
   "has_discussions": true,
