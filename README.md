@@ -111,3 +111,18 @@ Support is optional. Ko-fi and PayPal contributions help fund maintenance, Blend
 ## License
 
 See [LICENSE](LICENSE) for repository licensing terms.
+
+
+---
+
+## Help & feedback
+
+Open an **Issue** for bugs or a **Discussion** for questions — right here in this repo. For the full DRH index: [DRH Add-ons Hub](https://github.com/pacosalasv/DRH_Addons_Hub). If this tool saves you time, a rating on BlendKit helps others find it.
+
+<div align="center">
+  <a href="https://ko-fi.com/pacosalasv">
+    <img width="420" alt="Support DRH on Ko-fi" src="docs/media/SupportMe.png" />
+  </a>
+</div>
+
+<sub>Blender 4.2+ · Paco Salas DRH · Updated 2026-10 — v19.1</sub>
