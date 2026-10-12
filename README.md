@@ -117,7 +117,7 @@ See [LICENSE](LICENSE) for repository licensing terms.
 
 ## Help & feedback
 
-Open an **Issue** for bugs or a **Discussion** for questions — right here in this repo. For the full DRH index: [DRH Add-ons Hub](https://github.com/pacosalasv/DRH_Addons_Hub). If this tool saves you time, a rating on BlendKit helps others find it.
+Open an **Issue** for bugs or a **Discussion** for questions - right here in this repo. For the full DRH index: [DRH Add-ons Hub](https://github.com/pacosalasv/DRH_Addons_Hub). If this tool saves you time, a rating on BlendKit helps others find it.
 
 <div align="center">
   <a href="https://ko-fi.com/pacosalasv">
@@ -125,4 +125,4 @@ Open an **Issue** for bugs or a **Discussion** for questions — right here in t
   </a>
 </div>
 
-<sub>Blender 4.2+ · Paco Salas DRH · Updated 2026-10 — v19.1</sub>
+<sub>Blender 4.2+ · Paco Salas DRH · Updated 2026-10 - v19.1</sub>
