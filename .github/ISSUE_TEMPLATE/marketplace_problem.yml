@@ -1,0 +1,39 @@
+name: Marketplace or distribution problem
+description: Report an installation, listing, package, or delivery problem for DRH - Scene Material Inventory.
+title: "[Distribution]: "
+labels:
+  - marketplace problem
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for distribution problems. Do not post payment details, account credentials, or license keys.
+
+  - type: input
+    id: product_version
+    attributes:
+      label: Product version
+      placeholder: "Example: 1.0.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem_summary
+    attributes:
+      label: Problem
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual_behavior
+    attributes:
+      label: Actual result
+    validations:
+      required: true

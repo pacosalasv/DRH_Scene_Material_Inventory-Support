@@ -1,0 +1,43 @@
+# .gitignore
+# Keeps generated, local-environment, credential, and editor artifacts out of public support repositories.
+
+# Operating-system and editor state
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python-generated files and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Build, temporary, and cache outputs
+build/
+dist/
+tmp/
+temp/
+.cache/
+
+# Local environment and credential files
+.env
+.env.*
+*.local
+*.key
+*.pem
+
+# Packaged releases, private key containers, and local Office working files
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.gz
+*.pfx
+*.p12
+*.pptx
+*.docx
+*.xls
+*.xlsx
+desktop.ini
